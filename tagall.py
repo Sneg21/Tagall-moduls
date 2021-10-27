@@ -24,7 +24,7 @@ class TagAllMod(loader.Module):
     async def client_ready(self, client, db):
         self.client = client
 
-    async def tagallcmd(self, message):
+    async def tagKYScmd(self, message):
         arg = utils.get_args_raw(message)
 
         logger.error(message)
