@@ -15,7 +15,7 @@ def chunks(lst, n):
 
 class TagAllMod(loader.Module):
 
-    strings = {"name":"TagAll"}
+    strings = {"name":"TagAKYS"}
 
     def __init__(self):
         self.config = loader.ModuleConfig("DEFAULT_MENTION_MESSAGE", 'KYS Token so... Ahh..', "Default message of mentions")
