@@ -7,13 +7,13 @@ from .. import loader, utils
 logger = logging.getLogger(__name__)
 
 def register(cb):
-    cb(TagAllMod())
+    cb(TagAKYSMod())
 
 def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
 
-class TagAllMod(loader.Module):
+class TagKYSMod(loader.Module):
 
     strings = {"name":"TagAKYS"}
 
